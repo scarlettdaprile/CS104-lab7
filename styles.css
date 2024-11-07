@@ -22,4 +22,21 @@ background-color: blueviolet;
 .transition-text:hover{
     font-size: 24px;
 }
-
+.transition-image{
+    opacity: 1;
+    transition-duration: 0.8s;
+}
+.transition-image:hover{
+    opacity: 0.5;
+}
+.scale-div{
+    width: 100px;
+    height:100px;
+    background-color: pink;
+}
+.scale-div:hover{
+    transform: scale(1.5);
+}
+.scale-image:hover{
+transform: scale(0.75);
+}
